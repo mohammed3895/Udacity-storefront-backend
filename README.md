@@ -1,13 +1,13 @@
-## STROE_FRONT_BACKEND
-
+# STROE_FRONT_BACKEND
+<!--  -->
 a backend server for ecommerce website that have database and restful routes
-to get start with read informaitions below.
-
-### NOTE
-
+to get start with it, read informaitions below.
+<!--  -->
+## NOTE
+<!--  -->
 when sign in you will get { token } as response , copy it and
 use the token in request headers of creating new product .
-
+<!--  -->
 -   Example:
 
     -   create new product
@@ -31,15 +31,15 @@ use the token in request headers of creating new product .
 
 ## .env
 
-POSTGRES_HOST=localhost
-POSTGRES_USER=full_stack_user
-POSTGRES_DB=storefront_db
-POSTGRES_TEST_DB=storefront_test_db
-POSTGRES_PASSWORD=pass1234
-ENV=dev
-BCRYPT_PASSWORD=alongtermsuccess
-SALT_ROUNDS=10
-TOKEN_SECRET=toplevelsecertisbeingaddedhere
+    -  POSTGRES_HOST=localhost
+    -  POSTGRES_USER=full_stack_user
+    -  POSTGRES_DB=storefront_db
+    -  POSTGRES_TEST_DB=storefront_test_db
+    -  POSTGRES_PASSWORD='DB Password'
+    -  ENV=dev
+    -  BCRYPT_PASSWORD='Add Your Pepper'
+    -  SALT_ROUNDS=10
+    -  TOKEN_SECRET='Add Your Secret'
 
 ### SCRIPTS
 
