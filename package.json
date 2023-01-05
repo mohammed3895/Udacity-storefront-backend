@@ -1,0 +1,47 @@
+{
+  "name": "store-front-project",
+  "version": "1.0.0",
+  "description": "a backend server for ecommerce website that have database and restful routes\r to get start with read informaitions below.",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint --ext **.ts",
+    "prettier": "prettier --config .prettierrc src/** --write",
+    "dev": "nodemon src/server.ts",
+    "build": "npx tsc",
+    "test": "set ENV=test && db-migrate reset --env test && db-migrate up --env test && npm run build && jasmine && db-migrate reset --env test"
+  },
+  "author": "mohammed samir",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
+    "@types/eslint": "^8.4.10",
+    "@types/express": "^4.17.14",
+    "@types/jasmine": "^4.3.1",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/pg": "^8.6.5",
+    "@types/supertest": "^2.0.12",
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.29.0",
+    "jasmine": "^4.5.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "jasmine-ts": "^0.4.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.0",
+    "supertest": "^6.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.8.0",
+    "salt": "^0.5.5"
+  }
+}
