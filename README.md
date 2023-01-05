@@ -55,29 +55,29 @@ TOKEN_SECRET=toplevelsecertisbeingaddedhere
 
 ## Products
 
--   app.get '/products' to show all listed products
--   app.get '/products/id' to show specific product by adding id as parameter
--   app.post '/products' to add new product
--   app.put '/products/id' to update single product with id as parameter
--   app.delete '/products/id' to delete the product
+-   app.get ('/products') to show all listed products
+-   app.get ('/products/id') to show specific product by adding id as parameter
+-   app.post ('/products') to add new product
+-   app.put ('/products/id') to update single product with id as parameter
+-   app.delete ('/products/id') to delete the product
 
 ## Orders
 
--   app.get '/orders' to show all listed orders
--   app.get '/orders/id' to show specific order by adding id as parameter
--   app.post '/orders' to add new order
--   app.put '/orders/id' to update single order with id as parameter
--   app.delete '/orders/id' to delete the order
+-   app.get ('/orders') to show all listed orders
+-   app.get ('/orders/id') to show specific order by adding id as parameter
+-   app.post ('/orders') to add new order
+-   app.put ('/orders/id') to update single order with id as parameter
+-   app.delete ('/orders/id') to delete the order
 
 ## Users
 
--   app.get '/users' to show all listed users
--   app.get '/users/id' to show specific user by adding id as parameter
--   app.post '/users' to add new user
--   app.put '/users/id' to update single user with id as parameter
--   app.delete '/users/id' to delete the user
+-   app.get ('/users') to show all listed users
+-   app.get ('/users/id') to show specific user by adding id as parameter
+-   app.post ('/users') to add new user
+-   app.put ('/users/id') to update single user with id as parameter
+-   app.delete ('/users/id') to delete the user
 
 ## Cart
 
--   app.post '/orders/id/products' to add new product to order list
--   app.get '/orders/id/products' to show order list
+-   app.post ('/orders/id/products') to add new product to order list
+-   app.get ('/orders/id/products') to show order list
