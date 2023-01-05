@@ -8,7 +8,7 @@ to get start with it, read informaitions below.
 when sign in you will get { token } as response , copy it and
 use the token in request headers of creating new product .
 <!--  -->
-- ### Example:
+-  Example:
 
     -   create new product
 
